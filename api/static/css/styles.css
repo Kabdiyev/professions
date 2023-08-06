@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+.main {
+    background-color: #333333;
+    padding: 5em 0;
+    text-align: center;
+}
+
+.main h1, .desc-odd h1, .desc-even h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.8em;
+    font-size: 2.3em;
+}
+
+.main p, .desc-odd p, .desc-even p,
+.main ul li, .desc-odd ul li, .desc-even ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+    text-align: justify;
+    margin: 0 1em;
+    line-height: 1.7;
+}
+
+.main h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.main p, .main ul li {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.desc-odd, .desc-even {
+    padding: 7em 0;
+    text-align: center;
+}
+
+.desc-even {
+    background-color: #f0f0f0;
+}
+
+.container-md {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+    .main h1 {
+        font-size: 2.8em;
+    }
+
+    .main p, .main ul li {
+        font-size: 1.4em;
+    }
+
+    .desc-odd h1, .desc-even h1 {
+        font-size: 1.8em;
+    }
+    
+    .desc-odd p, .desc-even p,
+    .desc-odd ul li, .desc-even ul li {
+        font-size: 1.2em;
+        margin: 0 1em;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) {
+    .container-md {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+    .container-md {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+/* Extra large devices */
+@media (min-width: 1200px) {
+    .main h1{
+        font-size: 3.5em;
+    }
+    
+    .main p, .main ul li {
+        font-size: 1.7em;
+    }
+    .desc-odd h1, .desc-even h1 {
+        font-size: 2.3em;
+    }
+    
+    .desc-odd p, .desc-even p,
+    .desc-odd ul li, .desc-even ul li {
+        font-size: 1.4em;
+    }
+
+    .container-md {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
